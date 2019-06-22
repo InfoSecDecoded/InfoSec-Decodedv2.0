@@ -1,0 +1,147 @@
+/* ===============================
+GENERAL STYLING 
+================================== */
+
+main {
+  flex: 1 0 auto;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title-header {
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.text-dark-shadow {
+  text-shadow: -2px 1px 6px #000000;
+}
+
+.text-light-grey {
+  color: #393F44;
+}
+
+.text-red-accent {
+  color: #b71c1c;
+}
+
+/* ===============================
+NAVBAR STYLING
+================================== */
+
+nav .brand-logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidenav {
+  padding-top: 3rem;
+}
+
+.logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.logo>img {
+  vertical-align: middle;
+  padding-right: 6px;
+  width: 55px;
+}
+
+/* ===============================
+SLIDER SECTION 
+================================== */
+.slider-title {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+/* ===============================
+ABOUT SECTION 
+================================== */
+
+.about-paragraph {
+  padding-bottom: 80px;
+}
+
+/* ===============================
+PROGRAMS SECTION 
+================================== */
+
+.program-img-style {
+  padding-top: 100px;
+}
+
+.grid-bottom-padding {
+  padding-bottom: 100px;
+}
+
+.title-resources {
+  font-weight: bold;
+}
+
+.modal-header {
+  font-weight: bold;
+}
+
+.modal-hover-list:hover {
+  color: #42a5f5;
+}
+
+
+/* ===============================
+PARTNERS SECTION 
+================================== */
+
+.partner-img {
+  /* margin-left: 50px; */
+  padding: 10px;
+}
+
+.partner-img-mobile {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* ===============================
+NEWS & EVENTS SECTION 
+================================== */
+
+.section-icons {
+  margin-top: 100px;
+}
+
+.news-events-row-styling {
+  padding-bottom: 50px;
+}
+
+.news-modal-size {
+  width: 90%;
+  height: 90%;
+  overflow: visible;
+  max-height:100%;
+}
+
+/* ===============================
+FOOTER SECTION 
+================================== */
+
+footer .copyright {
+  /* color: #5D0F0D; */
+  font-size: small;
+}
+
+.page-footer {
+  background-color: #757575;
+}
+
+.social-media {
+  color: #ffffff;
+  padding-left: 10px;
+}
