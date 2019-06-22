@@ -1,1 +1,1 @@
-# InfoSec-Decoded
+# InfoSec Decoded
