@@ -1,11 +1,11 @@
 // ===============================================================
-// SECTION for Students
+// SECTION for COURSES
 // ===============================================================
 
-const students = document.querySelector('#students');
-const studentsDiv = document.createElement('div');
+const courses = document.querySelector('#courses');
+const coursesDiv = document.createElement('div');
 
-students.innerHTML = `
+courses.innerHTML = `
   <div class="container">
     <div class="row">
       <h3 class="title-header text-light-grey center-align">Students</h3>

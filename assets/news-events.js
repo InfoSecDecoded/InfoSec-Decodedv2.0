@@ -9,6 +9,7 @@ newsEventsDiv.innerHTML = `
   <h3 class="text-light-grey title-resources center-align">News & Events</h3>
   <div class="container">
     <div class="row news-events-row-styling">
+
       <div class="col s12 m6">
 		<a class="modal-trigger" href="#newsModal">
           <div class="card-panel hoverable">
@@ -20,20 +21,21 @@ newsEventsDiv.innerHTML = `
           </div>
         </a>
       </div>
+
       <div class="col s12 m6">
-        <a href="https://samsclass.info/#events" target="blank">
+        <a href="https://www.blackhat.com/us-19/training/schedule/index.html#exploit-development-for-beginners-14278" target="blank">
           <div class="card-panel hoverable">
             <i class="material-icons large red-text text-darken-4">
               event
             </i>
-            <h5 class="text-light-grey">Events</h5>
-            <p class="text-light-grey">Check out our ongoing cyber security events and workshops</p>
+            <h5 class="text-light-grey"> Black Hat USA 2019</h5>
+            <p class="text-light-grey">Black Hat USA is the world's leading information security event, providing attendees with the very latest in research, development and trends.</p>
           </div>
         </a>
       </div>
     </div>
   </div>
-  
+ 
   <!-- News Modal -->
   <div id="newsModal" class="modal news-modal-size">
   <div class="modal-content">

@@ -1,8 +1,8 @@
 // ===============================================================
-// SECTION for Programs
+// SECTION for PRODUCTS
 // ===============================================================
 
-const programs = document.querySelector('#programs');
+const products = document.querySelector('#products');
 const progDiv = document.createElement('div');
 
 progDiv.innerHTML = `
@@ -40,4 +40,4 @@ progDiv.innerHTML = `
   </div>
 `;
 
-programs.appendChild(progDiv);
+products.appendChild(progDiv);
