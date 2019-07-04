@@ -1,8 +1,8 @@
 // ===============================================================
-// SECTION for PRODUCTS
+// SECTION for BUSINESS SOLUTIONS
 // ===============================================================
 
-const products = document.querySelector('#products');
+const solutions = document.querySelector('#products');
 const progDiv = document.createElement('div');
 
 progDiv.innerHTML = `
@@ -40,4 +40,4 @@ progDiv.innerHTML = `
   </div>
 `;
 
-products.appendChild(progDiv);
+solutions.appendChild(progDiv);

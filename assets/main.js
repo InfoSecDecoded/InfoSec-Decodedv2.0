@@ -27,6 +27,13 @@ M.Modal.init(modalProgram, {});
 const modalResources = document.querySelector('#resources');
 M.Modal.init(modalResources, {});
 
+const modalElizabeth = document.querySelector('#elizabeth_profile');
+M.Modal.init(modalElizabeth, {});
+
+// modal resources
+const modalSam = document.querySelector('#sam_profile');
+M.Modal.init(modalSam, {});
+
 // modal news and tabs
 const newsModal = document.querySelector('#newsModal');
 M.Modal.init(newsModal, {});
