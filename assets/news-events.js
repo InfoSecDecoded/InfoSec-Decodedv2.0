@@ -5,13 +5,9 @@
 const newsEvents = document.querySelector('#news-events');
 const newsEventsDiv = document.createElement('div');
 
-newsEventsDiv.innerHTML = `
-  <h3 class="text-light-grey title-resources center-align">News & Events</h3>
-  <div class="container">
-    <div class="row news-events-row-styling">
 
-      <div class="col s12 m6">
-		<a class="modal-trigger" href="#newsModal">
+/* <div class="col s12 m6">
+    <a class="modal-trigger" href="#newsModal">
           <div class="card-panel hoverable">
             <i class="material-icons large red-text text-darken-4">
               insert_comment
@@ -20,12 +16,19 @@ newsEventsDiv.innerHTML = `
             <p class="text-light-grey">On industry insights in cyber security and defense</p>
           </div>
         </a>
-      </div>
+      </div> */
+
+newsEventsDiv.innerHTML = `
+  <h3 class="text-light-grey title-resources center-align">News & Events</h3>
+  <div class="container">
+    <div class="row news-events-row-styling">
+
+
 
       <div class="col s12 m6">
         <a href="https://www.blackhat.com/us-19/training/schedule/index.html#exploit-development-for-beginners-14278" target="blank">
           <div class="card-panel hoverable">
-            <i class="material-icons large red-text text-darken-4">
+            <i class="material-icons large blue-text text-darken-4">
               event
             </i>
             <h5 class="text-light-grey"> Black Hat USA 2019</h5>

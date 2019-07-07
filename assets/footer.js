@@ -1,6 +1,17 @@
 const footer = document.querySelector('.page-footer');
 const footerDiv = document.createElement('div');
 
+/* <div class="col l4 offset-l2 s12">
+      <h5 class="white-text">Connect</h5>
+      <div class="row">
+        <a class="social-media" href="#" target="blank"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
+        <a class="social-media" href="#" target="blank"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+        <a class="social-media" href="#" target="blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+        <a class="social-media" href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+      </div>
+    </div>*/
+
+
 footerDiv.innerHTML = `
   <div class="container">
   <div class="row">
@@ -13,18 +24,10 @@ footerDiv.innerHTML = `
       <a href="mailto:sam@infosecdecoded.com" class="grey-text text-lighten-4">sam@infosecdecoded.com</p></a>
     </div>
     <!-- social media -->
-    <div class="col l4 offset-l2 s12">
-      <h5 class="white-text">Connect</h5>
-      <div class="row">
-        <a class="social-media" href="#" target="blank"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i><span class="sr-only">Twitter</span></a>
-        <a class="social-media" href="#" target="blank"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
-        <a class="social-media" href="#" target="blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
-        <a class="social-media" href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
-      </div>
-    </div>
+    
   </div>
   </div>
-  <div class="section red darken-4 center copyright">
+  <div class="section black darken-4 center copyright">
   <div class="container">
       &copy; 2019 InfoSec Decoded 
   </div>
