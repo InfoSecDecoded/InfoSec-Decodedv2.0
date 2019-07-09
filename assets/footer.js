@@ -18,10 +18,10 @@ footerDiv.innerHTML = `
     <div class="col l6 s12">
       <h5 class="white-text">Contact Us</h5>
       <p class="grey-text text-lighten-4">
-      Sam Bowne<br/>Consultant<br/>
-      <a href="https://maps.google.com/?q=50+Phelan+Ave,+Room+S107+San+Francisco,+CA+94112&entry=gmail&source=g" class="grey-text text-lighten-4" target="blank"> 1728 Ocean Ave #178, San Francisco CA 94112</a><br/>
-      TEL: (415) 200-7656<br/>
-      <a href="mailto:sam@infosecdecoded.com" class="grey-text text-lighten-4">sam@infosecdecoded.com</p></a>
+      InfoSec Decoded<br/>1819 Polk Street #358<br/>
+      <a class="grey-text text-lighten-4" target="blank">San Francisco, CA 94109</a><br/>
+      TEL: (415) 562-6837<br/>
+      <a href="mailto:info@infosecdecoded.com" class="grey-text text-lighten-4">info@infosecdecoded.com</p></a>
     </div>
     <!-- social media -->
     
