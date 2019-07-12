@@ -1,11 +1,11 @@
 // ===============================================================
-// SECTION for Consultants
+// SECTION for TEAM
 // ===============================================================
 
-const consultants = document.querySelector('#consultants');
-const consultantsDiv = document.createElement('div');
+const team = document.querySelector('#team');
+const teamDiv = document.createElement('div');
 
-consultantsDiv.innerHTML = `
+teamDiv.innerHTML = `
   <h3 class="title-header text-light-grey center-align">Consultants</h3>
   <div class="container">
     <div class="row">
@@ -48,4 +48,4 @@ consultantsDiv.innerHTML = `
   </div>
 `;
 
-consultants.appendChild(consultantsDiv);
+team.appendChild(teamDiv);
