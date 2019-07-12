@@ -19,7 +19,7 @@ const newsEventsDiv = document.createElement('div');
       </div> */
 
 newsEventsDiv.innerHTML = `
-  <h3 class="text-light-grey title-resources center-align">News & Events</h3>
+  <h3 class="text-light-grey title-resources center-align">Upcoming Events</h3>
   <div class="container">
     <div class="row news-events-row-styling">
 
@@ -32,7 +32,9 @@ newsEventsDiv.innerHTML = `
               event
             </i>
             <h5 class="text-light-grey"> Black Hat USA 2019</h5>
-            <p class="text-light-grey">Black Hat USA is the world's leading information security event, providing attendees with the very latest in research, development and trends.</p>
+            <p class="text-light-grey">Exploit Development For Beginners</p>
+            <p class="text-light-grey">Sam Bowne | August 3 - 4</p>
+            <p class="text-light-grey">Mandalay Bay / Las Vegas</p>
           </div>
         </a>
       </div>
