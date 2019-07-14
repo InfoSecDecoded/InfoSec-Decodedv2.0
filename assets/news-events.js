@@ -23,8 +23,6 @@ newsEventsDiv.innerHTML = `
   <div class="container">
     <div class="row news-events-row-styling">
 
-
-
       <div class="col s12 m6">
         <a href="https://www.blackhat.com/us-19/training/schedule/index.html#exploit-development-for-beginners-14278" target="blank">
           <div class="card-panel hoverable">
@@ -40,6 +38,7 @@ newsEventsDiv.innerHTML = `
       </div>
     </div>
   </div>
+
  
   <!-- News Modal -->
   <div id="newsModal" class="modal news-modal-size">
