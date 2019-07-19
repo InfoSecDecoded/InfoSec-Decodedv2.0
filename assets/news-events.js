@@ -31,9 +31,10 @@ newsEventsDiv.innerHTML = `
             </i>
             <div class="news-text-styling">
             <h5 class="text-light-grey"> Black Hat USA 2019</h5>
-            <p class="text-light-grey ">Exploit Development For Beginners</p>
-            <p class="text-light-grey">Sam Bowne | August 3 - 4</p>
-            <p class="text-light-grey">Mandalay Bay / Las Vegas</p>
+            <p class="text-light-grey ">Exploit Development For Beginners
+            <br class="text-light-grey">Sam Bowne | August 3 - 4
+            <br class="text-light-grey">Mandalay Bay / Las Vegas</br>
+            </p>
           </div>
         </a>
       </div>
