@@ -160,6 +160,11 @@ NEWS & EVENTS SECTION
   max-height:100%;
 }
 
+.news-text-styling {
+  margin: 0;
+  padding: 0;
+}
+
 /* ===============================
 FOOTER SECTION 
 ================================== */
