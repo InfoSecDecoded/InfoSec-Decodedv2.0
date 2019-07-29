@@ -34,6 +34,20 @@ body {
   color: #133BB1;
 }
 
+.text-btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  display: inline-block;
+  text-align:center;
+}
+
+/* On mouse-over */
+.text-btn:hover {background: #eee;}
+.and-more {color: #133BB1;}
+
 /* ===============================
 NAVBAR STYLING
 ================================== */
