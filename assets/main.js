@@ -30,9 +30,12 @@ M.Modal.init(modalResources, {});
 const modalElizabeth = document.querySelector('#elizabeth_profile');
 M.Modal.init(modalElizabeth, {});
 
-// modal resources
 const modalSam = document.querySelector('#sam_profile');
 M.Modal.init(modalSam, {});
+
+// and more modal 
+const modalMore = document.querySelector('#and_more');
+M.Modal.init(modalMore, {})
 
 // modal news and tabs
 const newsModal = document.querySelector('#newsModal');
