@@ -45,8 +45,17 @@ body {
 }
 
 /* On mouse-over */
-.text-btn:hover {background: #eee;}
-.and-more {color: #133BB1;}
+.text-btn:hover {
+  background: #eee;
+}
+
+.and-more {
+  color: #133BB1;
+}
+
+.more-padding {
+  padding: 5px 10px;
+}
 
 /* ===============================
 NAVBAR STYLING
