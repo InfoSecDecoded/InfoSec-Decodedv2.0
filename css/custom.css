@@ -85,8 +85,10 @@ nav .brand-logo {
   width: 80%
 }
 
-.round-btn {
-  border-radius: 24px;
+.survey-btn {
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: limegreen
 }
 
 /* ===============================
