@@ -159,9 +159,11 @@ SOLUTIONS SECTION
 TOKENS SECTION 
 ================================== */
 
-.container {
+.container-token {
   position: relative;
   width: 50%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .image {
@@ -185,11 +187,11 @@ TOKENS SECTION
   text-align: center;
 }
 
-.container:hover .image {
+.container-token:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.container-token:hover .middle {
   opacity: 1;
 }
 
