@@ -352,7 +352,7 @@
       </ul>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-red btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat">CLOSE</a>
     </div>
   </div>
 
@@ -398,7 +398,7 @@
       </ul>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-red btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-red btn-flat">CLOSE</a>
     </div>
   </div>
 
@@ -505,45 +505,42 @@
         </div>
         </a>
         </div>
+-->
 
-
-        -->
-
-
-<div class="container-token">
-	<a href="#" role="button" target="blank">
-  <img src="img/yellow_beginner_ring_01.png" alt="Token" class="image">
-  <div class="middle">
-    <div class="text">Beginner</div>
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="beginner" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/yellow_beginner_ring_02.png' onmouseover="this.src='img/yellow_beginner_ring_01.png';" onmouseout="this.src='img/yellow_beginner_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Beginner</div>
   </div>
-  </a>
 </div>
 
-<div class="container-token">
-	<a href="#" role="button" target="blank">
-  <img src="img/red_attack_ring_01.png" alt="Token" class="image">
-  <div class="middle">
-    <div class="text">Attack</div>
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="defense" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/red_attack_ring_02.png' onmouseover="this.src='img/red_attack_ring_01.png';" onmouseout="this.src='img/red_attack_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Defense</div>
   </div>
-  </a>
 </div>
 
-<div class="container-token">
-	<a href="#" role="button" target="blank">
-  <img src="img/blue_defense_ring_01.png" alt="Token" class="image">
-  <div class="middle">
-    <div class="text">Defense</div>
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="attack" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/blue_defense_ring_02.png' onmouseover="this.src='img/blue_defense_ring_01.png';" onmouseout="this.src='img/blue_defense_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Attack</div>
   </div>
-  </a>
 </div>
 
-<div class="container-token">
-	<a href="#" role="button" target="blank">
-  <img src="img/purple_carreerdev_ring_01.png" alt="Token" class="image">
-  <div class="middle">
-    <div class="text">Career</div>
+<div class="responsive">
+  <div class="gallery">
+    <a data-target="career" class="text-btn and-more title-header center-align modal-trigger" target="blank">
+      <img src='img/purple_carreerdev_ring_02.png' onmouseover="this.src='img/purple_carreerdev_ring_01.png';" onmouseout="this.src='img/purple_carreerdev_ring_02.png';" alt="Career Development" width="600" height="400">
+    </a>
+    <div class="desc">Career Development</div>
   </div>
-  </a>
 </div>
 
 
@@ -589,11 +586,14 @@
             </div>
           </a>
         </div>
--->
-	<center> 
+
+	
 
   		<a data-target="and_more" class="text-btn and-more title-header center-align modal-trigger" target="blank">...And More</a>
-      	<h5 style="text-align:center">Contact us for additional services</h5>
+  	-->	
+  	<center> 
+  		
+      	<p style="text-align:center">Contact us for additional services</p>
         <a href="mailto:info@infosecdecoded.com">
            <i class="fa fa-envelope fa-4x" style="color:#133BB1;"></i>
         </a>
@@ -626,11 +626,74 @@
            <p class="more-padding text-light-grey">Practical Malware Analysis</p>
 
 			<div align="right">
-      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
       </div>
     </div>
   </div>
 
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Beginner -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="beginner" class="modal">
+      <h4 class=" more-padding modal-header">Beginner Courses</h4>
+           <p class="more-padding text-light-grey">Introduction to Security</p>
+			<div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Defense -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="defense" class="modal">
+      <h4 class=" more-padding modal-header">Defense Courses</h4>
+
+           <p class="more-padding text-light-grey">Securing Mobile Apps</p>
+			<p class="more-padding text-light-grey">Practical Cryptography</p>
+			<p class="more-padding text-light-grey">Incident Response</p>
+           <p class="more-padding text-light-grey">Securing Web Apps</p>
+           <p class="more-padding text-light-grey">Network Monitoring with Splunk</p>
+           <p class="more-padding text-light-grey">DNS Security</p>
+           <p class="more-padding text-light-grey">Computer Forensics</p>
+
+			<div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Attack -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="attack" class="modal">
+      <h4 class=" more-padding modal-header">Attack Courses</h4>
+           
+           <p class="more-padding text-light-grey">Ethical Hacking and Network Defense</p>
+           <p class="more-padding text-light-grey">Advanced Ethical Hacking with Python</p>
+           <p class="more-padding text-light-grey">Exploit Development</p>
+           <p class="more-padding text-light-grey">Practical Malware Analysis</p>
+
+			<div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================= -->
+  <!-- MODAL FOR Career Development -->
+  <!-- ============================================================= -->
+<!-- initialized in main.js -->
+  <div id="career" class="modal">
+      <h4 class=" more-padding modal-header">Career Development</h4>
+           
+           <p class="more-padding text-light-grey">CISSP Preparation</p>
+
+			<div align="right">
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+      </div>
+    </div>
+  </div>
   <!-- ============================================================= -->
   <!-- SECTION for TEAM -->
   <!-- ============================================================= -->
@@ -695,7 +758,7 @@
 Certificates of Accomplishment in Network Security, Cybersecurity, and Advanced Cybersecurity
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
     </div>
   </div>
 
@@ -719,7 +782,7 @@ Certificates of Accomplishment in Network Security, Cybersecurity, and Advanced 
 
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">DONE</a>
+      <a href="#!" class="modal-close waves-effect waves-blue btn-flat">CLOSE</a>
     </div>
   </div>
  

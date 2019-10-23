@@ -37,6 +37,22 @@ M.Modal.init(modalSam, {});
 const modalMore = document.querySelector('#and_more');
 M.Modal.init(modalMore, {})
 
+// beginner modal 
+const modalBeginner = document.querySelector('#beginner');
+M.Modal.init(modalBeginner, {})
+
+// defense modal 
+const modalDefense = document.querySelector('#defense');
+M.Modal.init(modalDefense, {})
+
+// attack modal 
+const modalAttack = document.querySelector('#attack');
+M.Modal.init(modalAttack, {})
+
+// career modal 
+const modalCareer = document.querySelector('#career');
+M.Modal.init(modalCareer, {})
+
 // modal news and tabs
 const newsModal = document.querySelector('#newsModal');
 M.Modal.init(newsModal, {});
