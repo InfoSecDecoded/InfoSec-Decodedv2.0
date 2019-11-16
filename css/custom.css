@@ -203,6 +203,19 @@ div.desc {
   clear: both;
 }
 
+.token-column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.token-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 /* ===============================
 TEAM SECTION 
 ================================== */
