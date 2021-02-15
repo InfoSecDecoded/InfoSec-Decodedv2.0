@@ -29,7 +29,7 @@ footerDiv.innerHTML = `
   </div>
   <div class="section black darken-4 center copyright">
   <div class="container">
-      &copy; 2019 InfoSec Decoded 
+      &copy; 2021 InfoSec Decoded 
   </div>
   </div>
 `;
